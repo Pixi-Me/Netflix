@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color: black;
+}
+
+main {
+    background-image: url(images/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+main .box {
+    height: 90vh;
+    width: 100vw;
+    opacity: .7;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+
+header {
+    display: flex;
+    max-width: 84vw;
+    height: 62px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    width: 148px;
+}
+
+header button {
+    position: relative;
+    z-index: 10;
+}
+
+#english {
+    background: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 4px;
+    height: 32px;
+    width: fit-content;
+    width: max-content;
+    padding: 6px 15px 6px 15px;
+}
+
+#sign {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(228, 8, 20);
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#tline {
+    display: flex;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    max-width: 50%;
+    margin: auto;
+    bottom: 60px;
+    flex-wrap: wrap;
+}
+
+#t1 {
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#t2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#t3 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+#t4 {
+    display: flex;
+    margin-top: 10px;
+    width: 80%;
+    height: fit-content;
+    justify-content: center;
+}
+
+#mail {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.532);
+    color: white;
+    width: 65%;
+    height: 55px;
+    margin-right: 10px;
+    padding: 24px;
+    font-size: 15px;
+    border: whitesmoke solid 1px;
+    border-radius: 5px;
+}
+
+#started {
+    width: 35%;
+    border-radius: 5px;
+    height: 57px;
+    background-color: rgb(228, 8, 20);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#sepration {
+    display: flex;
+    justify-content: center;
+}
+
+#sep {
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border-radius: 100%;
+    height: 7px;
+    width: 200%;
+    z-index: 10;
+    position: relative;
+    bottom: 65px;
+}
+
+section {
+    background-color: black;
+    height: fit-content ;
+    width: 100vw;
+}
+
+#trend {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    /* border: red solid 2px; */
+    margin-left: 15vw;
+    margin-top: 4vh;
+    padding-left: 9px;
+}
+
+#trends {
+    height: 10vh;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    top: 10px;
+}
+#trendings{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    height: 252px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-left: 40px;
+    align-items: flex-end;
+}
+.timages{
+    height: 252px;
+    width: 180px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 0px;
+    
+
+}
+.itext{
+    color: black;
+    font-size: 77px;
+    font-weight: 800;
+    text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+    position: absolute;
+    bottom: 19px;
+    right:147px;
+}
+#first{
+    background-image: url(images/wednesday.webp);
+    background-size: cover;
+    
+}
+#second{
+    background-image: url(images/raid.webp);
+    background-size: cover;
+}
+#third{
+    background-image: url(images/squid\ game.webp);
+    background-size: cover;
+
+}
+#fourth{
+    background-image: url(images/mandala\ munders.webp);
+    background-size: cover;
+}
+#fifth{
+    background-image: url(images/kapil.webp);
+    background-size: cover;
+}
+#sixth{
+    background-image: url(images/Aap\ Jaisa\ Koii.webp);
+    background-size: cover;
+}
+#seventh{
+    background-image: url(images/oho\ enthan\ baby.webp);
+    background-size: cover;
+}
+#eighth{
+    background-image: url(images/Chavva.webp);
+    background-size: cover;
+}
+#ninth{
+    background-image: url(images/HIT.webp);
+    background-size: cover;
+}
+#tenth{
+    background-image: url(images/Jaat.webp);
+    background-size: cover;
+}
+
