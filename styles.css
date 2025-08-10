@@ -33,7 +33,7 @@ main .box {
 
 header {
     display: flex;
-    max-width: 84vw;
+    max-width: 80vw;
     height: 62px;
     margin: auto;
     justify-content: space-between;
@@ -171,14 +171,14 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70vw;
+    width: 80vw;
     /* border: red solid 2px; */
-    margin-left: 15vw;
+    margin-left: 10vw;
     margin-top: 4vh;
     padding-left: 9px;
 }
 
-#trends {
+#thead {
     height: 10vh;
     position: relative;
     z-index: 10;
@@ -186,6 +186,7 @@ section {
     font-size: 24px;
     font-weight: 600;
     top: 10px;
+    left: 15px;
 }
 #trendings{
     display: flex;
@@ -263,4 +264,54 @@ section {
     background-image: url(images/Jaat.webp);
     background-size: cover;
 }
-
+#reason{
+    position: relative;
+    top: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 84vw;
+    margin-left: 8vw;
+    margin-top: 4vh;
+    padding-left: 9px;
+}
+#rhead{
+    height: 10vh;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+#reasons{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: 321px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-left: 40px;
+    
+}
+.reas{
+    width: 266px;
+    height: 321px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, #0f172a 0%, #1b1033 40%, #1e0f1a 100%);
+}
+.reashead{
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px 0 15px;
+    font-weight: 500;
+}
+.reastxt{
+    font-size: 16px;
+    color: white;
+    padding: 20px 10px 10px 15px;
+}
