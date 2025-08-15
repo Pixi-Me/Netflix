@@ -4,14 +4,15 @@
     box-sizing: border-box;
 
 }
-
+html, body{
+    overflow-x: hidden;
+}
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
     background-color: black;
-    margin-bottom: 20px;
+    width: 100vw;
+    height: 100vh;
 }
 
 main {
@@ -168,7 +169,7 @@ section {
 }
 
 #trend {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,7 +277,6 @@ section {
 }
 #reason{
     position: relative;
-    top: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,13 +337,12 @@ section {
 }
 #ques{
     position: relative;
-    top: 57vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 84vw;
     margin-left: 8vw;
-    margin-top: 4vh;
+    margin-top: 100px;
     color: white;
 }
 #qhead{
@@ -377,13 +376,13 @@ section {
     text-align: center;
     display: block;
     position: relative;
-    top: 66vh ;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-weight: 500;
 }
 #login{
     display: flex;
     position: relative;
-    top: 70vh;
     width: 55vw;
     margin: auto;
 }
@@ -418,13 +417,12 @@ section {
     flex-direction: column;
     gap: 30px;
     position: relative;
-    top: 75vh;
     left: 1vw;
     justify-content: center;
     width: 80vw;
     margin: auto;
     color: rgb(179,178,178);
-    
+    margin-top: 100px;
 }
 #call{
     font-size: 16px
@@ -446,6 +444,7 @@ a{
 #netflix{
     font-size: 14px;
     font-weight: 500;
+    margin-bottom: 100px;
 }
 #links{
     display: grid;
